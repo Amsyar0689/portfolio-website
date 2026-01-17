@@ -7,9 +7,11 @@ const About = () => {
   const sectionRef = useRef<HTMLElement>(null);
 
   const skills = [
-    { category: 'Programming Languages', items: ['Python', 'Java', 'R', 'SQL', 'JavaScript + HTML'] },
-    { category: 'Platform and Frameworks', items: ['PostgreSQL', 'MongoDB', 'React + Express', 'Azure', 'Git'] },
-    { category: 'Software and Applications', items: ['Emacs', 'Tableau', 'Microsoft Office', 'Snowflake', 'Docker'] },
+    { category: 'Programming Languages', items: ['Python', 'Java', 'R', 'SQL', 'JavaScript', 'HTML/CSS', 'Bash'] },
+    { category: 'Frameworks and Libraries', items: ['FastAPI', 'LangChain', 'Scikit-Learn', 'XGBoost', 'Spark', 'Kafka', 'REST API'] },
+    { category: 'Cloud Databases', items: ['AWS', 'Render', 'Docker', 'PostgreSQL', 'MongoDB', 'Snowflake', 'ChromaDB'] },
+    { category: 'Tools', items: ['Git', 'Tableau', 'Plotly', 'AirByte', 'ElasticSearch', 'Emacs', 'LaTeX', 'DBeaver', 'Postman'] },
+    { category: 'Certifications', items: ['Google Data Analytics Professional Certificate'] },
   ];
 
   const highlights = [

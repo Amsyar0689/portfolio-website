@@ -62,7 +62,7 @@ const Hero = () => {
                 <span className="inline-block animate-pulse">
                   {roles[currentRole]}
                 </span>
-                {' | BSc in Computer Science & Data Science @ UW-Madison'}
+                {' | B.S. in Computer Science & Data Science @ UW-Madison'}
               </p>
             </div>
 

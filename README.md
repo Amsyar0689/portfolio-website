@@ -65,6 +65,7 @@ Update the following files to personalize your portfolio:
 
 - `src/components/Hero.tsx` - Your name, title, and bio
 - `src/components/About.tsx` - Your story and skills
+- `src/components/Education.tsx` - Academic experience
 - `src/components/Experience.tsx` - Work experience
 - `src/components/Projects.tsx` - Your projects
 - `src/components/Contact.tsx` - Contact information

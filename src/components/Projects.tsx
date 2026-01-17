@@ -158,7 +158,7 @@ const Projects = () => {
         'SEO Optimized - Meta tags, semantic HTML',
         'Vercel Deployment - Production Ready'
       ],
-      githubUrl: '#',
+      githubUrl: 'https://muhammadamsyarluqman-mdhanif.vercel.app/',
       category: 'Web Application',
       highlight: 'Portfolio Website'
     },
