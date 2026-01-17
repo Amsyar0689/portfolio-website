@@ -111,7 +111,7 @@ const Hero = () => {
                 <div className="w-full h-full rounded-full overflow-hidden bg-white">
                   <img
                     src="/images/profile.jpg"
-                    alt="Amsyar Md Hanif"
+                    alt="Picture of Amsyar Md Hanif"
                     className="w-full h-full object-cover rounded-full group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
