@@ -9,7 +9,7 @@ const About = () => {
   const skills = [
     { category: 'Programming Languages', items: ['Python', 'Java', 'R', 'SQL', 'JavaScript', 'HTML/CSS', 'Bash'] },
     { category: 'Frameworks and Libraries', items: ['FastAPI', 'LangChain', 'Scikit-Learn', 'XGBoost', 'Spark', 'Kafka', 'REST API'] },
-    { category: 'Cloud Databases', items: ['AWS', 'Render', 'Docker', 'PostgreSQL', 'MongoDB', 'Snowflake', 'ChromaDB'] },
+    { category: 'Cloud and Databases', items: ['AWS', 'Render', 'Docker', 'PostgreSQL', 'MongoDB', 'Snowflake', 'ChromaDB'] },
     { category: 'Tools', items: ['Git', 'Tableau', 'Plotly', 'AirByte', 'ElasticSearch', 'Emacs', 'LaTeX', 'DBeaver', 'Postman'] },
     { category: 'Certifications', items: ['Google Data Analytics Professional Certificate'] },
   ];
@@ -96,7 +96,7 @@ const About = () => {
                 What began as curiosity about statistics and algorithms evolved into a deep passion for solving problems with data.
               </p>
               <p>
-                Throughout my academic journey, I’ve worked on research projects and internships where I applied machine learning to real-world challenges—from
+                Throughout my academic journey, I’ve worked on research and internships where I applied machine learning to real-world challenges—from
                 predictive modeling to Neural Network.
                 I believe that great data science isn’t just about models—it’s about building insightful, ethical, and scalable solutions that truly make an impact.
               </p>

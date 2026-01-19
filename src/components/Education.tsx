@@ -10,11 +10,11 @@ const Education = () => {
     {
       institution: 'University of Wisconsin-Madison',
       degree: 'B.S. Computer Science & Data Science',
-      period: 'Spetember 2022 - May 2026',
+      period: 'September 2022 - May 2026',
       location: 'Madison, WI',
       description: 'Graduated with double major specializing in AI/ML systems and Data Analytics. Actively involved in student leadership and academic discussions.',
       achievements: [
-        'Awards and Honors: Dean\'s List for Spring 2023, Fall 2025 semesters, Wisonsin Union May 2025 Employee of The Month',
+        'Awards and Honors: Dean\'s List for Spring 2023, Fall 2025 semesters. Wisconsin Union May 2025 Employee of The Month',
         'Projects: Built multiple FinTech solutions including a RAG-based Financial Analyst Chatbot and Credit Risk Scoring Engine',
         'Leadership: Logistics Assistant for Malaysian Student Association (MySA) & Event Setup Student Supervisor at Wisconsin Union',
       ],
@@ -94,7 +94,7 @@ const Education = () => {
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-4xl font-bold text-slate-800 mb-4">Education</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            My academic foundation and research pursuits that have shaped my technical expertise.
+            My academic foundation and experience that have shaped my technical expertise.
           </p>
         </div>
 
@@ -160,7 +160,7 @@ const Education = () => {
                       <div className="mb-4 pt-2">
                         <h5 className="font-semibold text-slate-800 mb-3 flex items-center">
                              <BookOpen size={16} className="mr-2 text-rose-500" />
-                             Key Highlights & Research:
+                             Key Highlights:
                         </h5>
                         <ul className="space-y-2">
                           {edu.achievements.map((item, i) => (
