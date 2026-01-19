@@ -123,7 +123,7 @@ const Education = () => {
                       onClick={() => setExpandedCard(expandedCard === index ? null : index)}
                     >
                       <div className="flex-1">
-                        <h3 className="text-xl font-bold text-slate-800 mb-1 group-hover:text-rose-600 transition-colors">
+                        <h3 className="text-xl font-bold text-slate-800 mb-1 group-hover:text-green-600 transition-colors">
                           {edu.degree}
                         </h3>
                         <h4 className="text-lg font-semibold text-green-600 mb-2 flex items-center">
@@ -145,8 +145,8 @@ const Education = () => {
                       
                       <div className="flex items-center space-x-2">
                         {expandedCard === index ? 
-                          <ChevronUp size={20} className="text-gray-400 group-hover:text-rose-600 transition-colors" /> :
-                          <ChevronDown size={20} className="text-gray-400 group-hover:text-rose-600 transition-colors" />
+                          <ChevronUp size={20} className="text-gray-400 group-hover:text-green-600 transition-colors" /> :
+                          <ChevronDown size={20} className="text-gray-400 group-hover:text-green-600 transition-colors" />
                         }
                       </div>
                     </div>
