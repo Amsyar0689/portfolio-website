@@ -8,6 +8,20 @@ const Experience = () => {
 
   const experiences = [
     {
+      company: 'Grainger School of Business, University of Wisconsin-Madison',
+      position: 'Software Engineer',
+      period: 'Jan 2026 - May 2026',
+      location: 'Madison, WI',
+      description: 'Architected and migrated legacy business analytics infrastructure to a modern full-stack web platform, optimizing real-time data retrieval pipelines.',
+      achievements: [
+        'Led the full-stack migration of a legacy scoring tool to a responsive FastAPI and React architecture, facilitating stakeholder requirement gathering to successfully consolidate dual business analytics platforms.',
+        'Engineered automated data pipelines and integrated Prometheus observability tracking, implementing intelligent logging that cut production troubleshooting and root-cause analysis time to under 2 hours.',
+        'Optimized text-chunking algorithms and context-retrieval thresholds within an agile delivery environment, successfully decreasing external API response latency by 30% while ensuring 100% data integrity.'
+      ],
+      technologies: ['React', 'FastAPI', 'Python', 'Prometheus', 'REST APIs', 'Git'],
+      color: 'amber'
+    },
+    {
       company: 'Maxis Communications',
       position: 'Software Engineering (AI Search Optimization) Intern',
       period: 'May 2025 - Aug 2025',
