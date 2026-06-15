@@ -110,7 +110,7 @@ const Hero = () => {
               <div className="w-80 h-80 bg-gradient-to-br from-emerald-400 to-blue-500 rounded-full p-1 group-hover:scale-105 transition-transform duration-300">
                 <div className="w-full h-full rounded-full overflow-hidden bg-white">
                   <img
-                    src="/images/new-profile.jpg"
+                    src="/images/new-profile.png"
                     alt="Picture of Amsyar Md Hanif"
                     className="w-full h-full object-cover rounded-full group-hover:scale-110 transition-transform duration-500"
                   />
